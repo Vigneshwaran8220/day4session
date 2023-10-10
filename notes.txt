@@ -1,0 +1,89 @@
+oops:object oriented programming
+//javascript in inherited some features just from java .
+what is oops :
+--> main pillar of  java
+// features of oops :
+1.encapsulation
+2.inheritance
+3.polymorphism
+
+1.encapsulation- hiding the implementation details .in which one thing
+is included with other thing so that inclusive things will not appear.
+ex:whatsapp
+
+2.inheritance- a parent child relationship , in which the class takes all the 
+characteristics of parent class.(child=>inherist=>parents)
+ex:geens/dna
+
+3.polymorphism- a way to acheive a single in different ways .
+ex:myself
+
+//classes and objects
+//methods
+//accessing
+
+class: it is a collection of properties,methods and objects.
+class are generally defined by using the class keyword.
+syntax:
+class Classname{
+    //properties
+    //methods
+    //objects
+}
+ex:
+class Movie{
+    //director,concept,actor,musicdirector,
+}
+
+object: Object is called as the real time entity.(touch and feel)
+.objects are specific to the class
+syntax:
+var objectname =new Classname();
+new- new is a keyword used to create instance of an object.
+
+constructor: to store value inside the objects.
+this: it is the temporary keyword which is pointing to the freshly created objects.
+
+ex:car 
+class Car{
+    constructor(brand,color){
+        this.brand=brand;
+        this.color=color;//this.color=black
+    }
+    printcolor(){
+   return this.color;    
+}
+
+}
+var var = new Car("audi","black");
+console.log(the color of my car is ${test.color});
+--------------------------------------------------------------------------------------
+
+
+//TASK:
+class==> person 
+properties=>(name, age, salary,gender)
+--------------------------------------------------------------------------------------------
+methods: functions
+printcolor(){
+   return this.color;    
+}
+example:
+class Car{
+    constructor(brand,color){
+        this.brand=brand;
+        this.color=color;
+    }
+    printcolor(){
+   return this.color;    
+}
+}
+var test= new Car("Audi","black");
+var test= new Car("Audi","white");
+
+
+console.log(`the color of my car is ${test.printcolor()}`);
+console.log(`the color of my car is ${test.color}`);
+--------------------------------------------------------------------------------------
+
+   
